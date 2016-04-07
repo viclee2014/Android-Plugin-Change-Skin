@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blur_bg">
+    <ImageView
+        android:id="@+id/change_skin_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_launcher"/>
+    <TextView
+        android:id="@+id/change_skin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/contents_text"
+        android:text="我是测试文本"
+        android:textSize="10dp"/>
+
+    <Button
+        android:id="@+id/change_skin_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="使用皮肤1"/>
+    <Button
+        android:id="@+id/change_skin_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="使用皮肤2"/>
+</LinearLayout>

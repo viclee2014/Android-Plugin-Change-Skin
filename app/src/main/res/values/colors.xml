@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blur_bg">#FFFAF0</color>
+    <color name="contents_text">#ff000000</color>
+</resources>
