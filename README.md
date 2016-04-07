@@ -1,5 +1,7 @@
 # Android-Plugin-Change-Skin
 
+Android App实现换肤有很多方式，有的是通过内置资源的方式，有的是通过设置相同签名并且AndroidManifest.xml中配置相同android:sharedUserId使得两个apk运行在同一个进程中来互相访问数据。但是这些方式都有其局限性，实现不够灵活。这里是通过插件的方式换肤的原理及实现。
+
 插件换肤的实现思路：
 
 1）创建宿主工程，生成对应的UI页面，确定哪些资源需要动态替换。
